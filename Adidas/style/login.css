@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+:root {
+    --cor0: #000000;
+    --cor1: rgb(136, 130, 130);
+    --cor2: rgb(255, 255, 255);
+    --cor3: #757575;
+
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    
+    color: var(--cor2);
+    padding: 30px;
+    text-align: center;
+}
+.conteudo {
+    flex: 1 0 auto;
+}
+
+.logo-pagina-login {
+    width: 250px;
+    margin-left: +1150px
+    
+    
+    
+}
+.form-login {
+    font-size: 20px;
+    
+}
+.input-login-usuario {
+    padding: 5px 50px;
+    
+}
+.botao-login-entrar {
+    background-color: var(--cor0);
+    padding: 2px 40px;   
+}
+.botao-login-entrar:hover {
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.botao-login-criar-conta {
+    background-color: var(--cor0);
+    padding: 2px 35px;
+    
+}
+.botao-login-criar-conta:hover{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.rodape {
+    flex-shrink: 0;
+    background-color: var(--cor0);
+    color: var(--cor2);
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+.politica-de-privacidade {
+    width: 40px; 
+    height: 40px;
+    color: var(--cor2);
+    text-align: left;
+    font-size: 20px;
+    display: inline-flex;
+    margin-left: +290px;
+    
+}
+.termos-de-condicoes {
+    color: var(--cor2);
+    font-size: 25px;
+    display: inline-flex;
+    margin-left: +1098px;
+    
+}
+    .copyright {
+        color: var(--cor3);
+        font-size: 20px;
+        margin: 20px 0 0;
+        margin-left: -840px;
+    }
+    
+

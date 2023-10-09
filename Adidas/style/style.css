@@ -1,0 +1,195 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+:root {
+    --cor0: #000000;
+    --cor1: rgb(136, 130, 130);
+    --cor2: rgb(255, 255, 255);
+    --cor3: #757575;
+
+}
+
+html, body {
+    min-height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.entrar {
+    text-align: end;
+    font-size: 18px; 
+    margin-left: +1255px;  
+}
+.entrar:hover {
+     -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.logo {
+   width: 70px;
+   height: 70px;
+   margin-left: +550px;
+}
+nav li {
+    
+    display: inline;
+    margin:0 0 0 15px;
+ 
+}
+
+nav {
+    text-transform:uppercase;
+    color: var(--cor0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: +875px;
+}
+.decoracao-menu-nav {
+    text-decoration: none;
+    color: var(--cor0);
+}
+.hover-nav :hover{
+    color: var(--cor1);
+    text-decoration: none;
+    
+}
+
+.container1 {
+    color: var(--cor2);
+    background-color: var(--cor0);
+    display: flex;
+}
+.ajuste-img-banner-propaganda {
+    width: 600px;
+    height: 600px;
+    margin-left: 200px;
+}
+.titulo-apresentacao {
+    font-size: 55px;
+    text-align: left;
+    margin-left: +550px;
+    
+}
+.sob-titulo-apresentacao {
+    font-size: 20px;
+    text-align: left;
+    margin-left: -2px;
+}
+.modelos {
+    width: 1220px;
+    height: 600px;
+   
+}
+
+
+.produtos-femininos li {
+    display:inline-block;
+    text-align: center;
+    width: 13%;
+    font-size: 18px;
+    text-align: left; 
+    
+      
+}
+.produtos-masculinos li {
+    display:inline-block;
+    text-align: center;
+    width: 13%;
+    font-size: 18px;
+    text-align: left; 
+    
+      
+}
+.produtos-infantil li {
+    display:inline-block;
+    text-align: center;
+    width: 13%;
+    font-size: 18px;
+    text-align: left; 
+    
+}
+.botao {
+    font-size: 25px;
+    background-color: var(--cor2);
+    color: var(--cor0);
+    padding: 5px 30px;
+    margin-left: +80px;
+    
+
+}
+.botao:hover {
+    
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.botao-enviar-mensagem {
+    font-size: 25px;
+    background-color: var(--cor0);
+    color: var(--cor2);
+    padding: 5px 30px;
+    margin-left: +10px;
+
+}
+.botao-enviar-mensagem:hover {
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0; /*para dar espaço entre as opções do formulario*/
+   
+}
+
+.input-padrao {
+    margin: 0 0 10px;
+    padding: 5px 10px; /*Para alterar o tamanho da caixa de texto*/
+    width: 35%;
+    
+}
+.button {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    font-size:25px;
+    padding: 2px 20px;
+}
+.botao-criar-conta {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    font-size: 18px;
+}
+.rodape {
+    flex-shrink: 0;
+    background-color: var(--cor0);
+    color: var(--cor2);
+    padding: 30px;
+    text-align: center;
+}
+.politica-de-privacidade {
+    color: var(--cor2);
+    text-align: left;
+    font-size: 25px;
+    display: inline-flex;
+    margin-left: +550px;
+}
+.termos-de-condicoes {
+    color: var(--cor2);
+    font-size: 25px;
+    display: inline-flex;
+    margin-left: +550px;
+    
+}
+.copyright {
+    color: var(--cor3);
+    font-size: 20px;
+    margin: 20px 0 0;
+    margin-left: -730px;
+}
+
+    
+
